@@ -5,3 +5,5 @@ credentials.json
 mycreds.txt
 mysqldb.py
 mysqldb2.py
+/.vs/slnx.sqlite
+/.vs/sloth-bot/v16
