@@ -111,7 +111,7 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if 'Direct Message' in str(message.channel):
+    if message.guild:
         if message.author.id == 512404174957314083:
             dnk = client.get_user(647452832852869120)
             msg = message.content
